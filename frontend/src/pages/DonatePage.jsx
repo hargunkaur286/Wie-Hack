@@ -39,7 +39,7 @@ const DonatePage = () => {
         (item) => item.currentBid >= 5.5 && item.currentBid < 6
       );
 
-      setData(filterData);
+      // setData(filterData);
     }
 
     if (filterValue === "low") {
@@ -47,7 +47,7 @@ const DonatePage = () => {
         (item) => item.currentBid >= 4.89 && item.currentBid < 5.5
       );
 
-      setData(filterData);
+      // setData(filterData);
     }
   };
   return (

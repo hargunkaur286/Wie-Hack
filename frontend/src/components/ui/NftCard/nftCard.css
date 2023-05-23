@@ -23,3 +23,8 @@
     font-size: 0.6rem !important;
   }
 }
+
+content__info p{
+  font-size: 10px !important;
+  color: blueviolet !important;
+}

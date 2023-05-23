@@ -2,12 +2,13 @@ import React, { useState, useEffect } from "react";
 import CommonSection from "../components/ui/CommonSection/CommonSection";
 
 import NftCard from "../components/ui/NftCard/NftCard";
+import BlogCard from "../components/ui/BlogCard/BlogCard";
 //import { NFT__DATA } from "../assets/data/data";
 import { Container, Row, Col } from "reactstrap";
 import "../styles/market.css";
 import { onValue, ref } from "firebase/database";
 import { db } from "../firebase";
-
+import { blog } from "../constants/data";
 // const storage = getStorage();
 
 const Market = () => {
@@ -57,9 +58,11 @@ const Market = () => {
   return (
     <>
       <CommonSection
-        title={"Donate for Endangered Animals By buying cool NFTs"}
+        title={"Blogs "}
+        para={"We use an agile approach to test assumptions and connect with the needs of your audience early and often."}
+        
       />
-
+      
       <section>
         <Container>
           <Row>
@@ -69,39 +72,50 @@ const Market = () => {
                   <div className="all__category__filter">
                     <select onChange={handleCategory}>
                       <option>All Categories</option>
-                      <option value="art">Art</option>
-                      <option value="music">Music</option>
-                      <option value="domain-name">Domain Name</option>
-                      <option value="virtual-world">Virtual World</option>
-                      <option value="trending-card">Trending Cards</option>
+                      <option value="news">News</option>
+                      <option value="Payments">Payments</option>
+                      <option value="Lending">Lending</option>
+                      <option value="Wealth">Wealth</option>
+                      <option value="RegTech">RegTech</option>
+                      <option value="InsurTech">InsurTech</option>
+                      <option value="Open-Banking">Open Banking</option>
+                      <option value="Cybersecurity">Cybersecurity</option>
                     </select>
                   </div>
 
-                  <div className="all__items__filter">
+                  {/* <div className="all__items__filter">
                     <select onChange={handleItems}>
                       <option>All Items</option>
-                      <option value="single-item">Single Item</option>
-                      <option value="bundle">Bundle</option>
+                      <option value="Popularity">Popularity</option>
+                      <option value="most-recent">Most Recent</option>
+                      <option value="least-recent">Least Recent</option>
                     </select>
-                  </div>
+                  </div> */}
                 </div>
 
                 <div className="filter__right">
                   <select>
                     <option>Sort By</option>
-                    <option value="high">High Rate</option>
-                    <option value="mid">Mid Rate</option>
-                    <option value="low">Low Rate</option>
+                    <option value="Popularity">Popularity</option>
+                    <option value="most-recent">Most Recent</option>
+                    <option value="least-recent">Least Recent</option>
                   </select>
                 </div>
               </div>
             </Col>
-
-            {formData?.map((item) => (
+            
+          
+      {blog.map((card) => 
+        <Col lg="3" md="4" sm="6" className="mb-4">
+        <BlogCard key={card.id} {...card} />
+        </Col>)}
+   
+           
+            {/* {formData?.map((item) => (
               <Col lg="3" md="4" sm="6" className="mb-4" key={item.id}>
                 <NftCard item={item} />
               </Col>
-            ))}
+            ))} */}
           </Row>
         </Container>
       </section>
