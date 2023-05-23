@@ -3,12 +3,12 @@ import "../NftCard/nftCard.css";
 import { Link } from "react-router-dom";
 import creatorImg from "../../../assets/images/ava-01.png";
 
-export default function BlogCard({ Title, Content, Author}) {
+export default function BlogCard({ img, Title, Content, Author}) {
   return (
     <div>
          <div className="single__nft__card">
       <div className="nft__img">
-        <img src={creatorImg} alt="" className="w-100 " />
+        <img src={img} alt="" className="w-100 " />
       </div>
 
       <div className="nft__content">

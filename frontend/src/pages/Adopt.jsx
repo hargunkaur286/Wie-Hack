@@ -6,6 +6,7 @@ import { Container, Row, Col } from "reactstrap";
 import "../styles/market.css";
 import { onValue, ref } from "firebase/database";
 import { db } from "../firebase";
+import Dashboard from "../components/ui/Trade/Dashboard";
 
 const Adopt = () => {
   // const [data, setData] = useState(ADOPT__DATA);
@@ -74,6 +75,7 @@ const Adopt = () => {
           </Row>
         </Container>
       </section>
+      <Dashboard />
     </>
   );
 };

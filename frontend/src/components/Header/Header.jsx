@@ -8,6 +8,7 @@ import { ethers } from "ethers";
 
 // import { WalletContext } from "../../context/WalletContext";
 import logoImg from "../../assets/images/1.png";
+import FinEdge from "../../assets/images/finedge.png";
 import { NavLink } from "react-router-dom";
 import swal from 'sweetalert';
 // import { useStateValue } from "../../StateProvider";
@@ -19,23 +20,23 @@ const NAV__LINKS = [
     url: "/home",
   },
   {
-    display: "Marketplace",
+    display: "Blogs",
     url: "/market",
   },
   {
-    display: "Adopt",
+    display: "Courses",
     url: "/adopt",
   },
   {
-    display: "Donate",
+    display: "Trade Dashboard",
     url: "/donate",
   },
   {
-    display: "Design",
+    display: "Invoice Tracker",
     url: "/create",
   },
   {
-    display: "Leads",
+    display: "Fin Games",
     url: "/contact",
   },
   // {
@@ -137,9 +138,9 @@ const Header = () => {
             <h4 className="d-flex gap-2 align-items-center ">
               <span>
                 {/* <i class="ri-fire-fill"></i> */}
-                <img src={logoImg} className="logoImg" alt="logoImg" />
+                <img src={FinEdge} className="logoImg" alt="logoImg" />
               </span>
-              AnimalCare
+              FinEdge
             </h4>
           </div>
 
@@ -157,7 +158,7 @@ const Header = () => {
                   </NavLink>
                 </li>
               ))}
-              <li className="nav__item">
+              {/* <li className="nav__item">
                 <a
                   href="https://docs.google.com/document/d/1mCpw7SQ1FIN1BiW9scCuJSZf7w9i3yxKiYV1w9xEczs/edit?usp=sharing"
                   target="_blank"
@@ -165,7 +166,7 @@ const Header = () => {
                 >
                   Whitepaper
                 </a>
-              </li>
+              </li> */}
             </ul>
           </div>
 
@@ -188,9 +189,9 @@ const Header = () => {
                 onClick={btnhandler}
               >
                 <span>
-                  <i className="ri-wallet-line"></i>
+                  {/* <i className="ri-wallet-line"></i> */}
                 </span>
-                <span className="wltCntText">Connect Wallet</span>
+                <span className="wltCntText">Sign In</span>
               </button>
             )}
 
