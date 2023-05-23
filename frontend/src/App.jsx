@@ -14,7 +14,7 @@ import Invoice from "./pages/Invoice";
 function App() {
   const isLoggedIn = window.localStorage.getItem("loggedIn");
   return (
-    <BrowserRouter basename="/gopeacify-frontend">
+    <BrowserRouter basename="/code-blazer">
       <Navbar />
       <Routes>
      
