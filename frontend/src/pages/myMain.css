@@ -1,0 +1,367 @@
+/* MUSICAL THERAPY PAGE CSS */
+.MusicalTherapy {
+    margin-top: 4rem;
+}
+
+.topLayer {
+    margin-top: 18px;
+    font-size: 1.125rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tl1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.tl1>p {
+    width: 14rem;
+    font-weight: bolder;
+    font-size: 2rem;
+    color: #017474e3;
+    vertical-align: middle;
+    display: table-cell;
+    text-align: center;
+    line-height: normal;
+}
+
+.tl1>button {
+    background-color: #008080;
+    color: white;
+    padding: 5px 36px;
+    border: none;
+    border-radius: 37px;
+    margin-top: 8px;
+}
+
+.tl3 {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+.tl3>.tl3_same {
+    display: flex;
+    gap: 4rem;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+
+}
+
+.tl3>.tl3_same>p {
+    vertical-align: middle;
+    display: table-cell;
+    text-align: end;
+    line-height: normal;
+
+}
+
+.tl3>.part2 {
+    text-align: start;
+}
+
+.secondLayer {
+    margin: 59px 244px;
+    padding: 27px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #a2fff542;
+}
+
+.secondLayer>.a {
+    display: grid;
+    gap: 7px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.thirdLayer {
+    margin: 0px 244px;
+    display: flex;
+    gap: 35px;
+    margin-bottom: 25px;
+    align-items: center;
+}
+
+.tp2 {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: -28px;
+    padding: 12px;
+    border-radius: 12px;
+}
+
+.tp2>div {
+    display: flex;
+}
+
+.thl2 {
+    margin-top: -31px;
+}
+
+.tl3_parts {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.thl3>p {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.thl3 {
+    width: 28rem;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.tl3_p1 {
+    text-align: -webkit-center;
+}
+
+.btn2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn2>button {
+    background-color: #008080;
+    color: white;
+    padding: 5px 36px;
+    border: none;
+    border-radius: 37px;
+    margin-top: 8px;
+}
+
+.fourthLayer {
+    background-color: #e7fffc;
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.flstart {
+
+    margin: 25px 0px;
+
+}
+
+.b {
+    justify-content: flex-start;
+}
+
+.fl1 {
+    width: 65rem;
+    margin-bottom: 37px;
+}
+
+.fl1>p {
+    padding-right: 9rem;
+    font-size: 38px;
+    font-weight: bold;
+    line-height: normal;
+}
+
+.fl3 {
+    display: flex;
+    gap: 25px;
+}
+
+.flmoveBtn {
+    height: 60px;
+}
+
+.fl2 {
+    margin-right: 75px;
+    float: right;
+}
+
+.fl2>:nth-child(1) {
+    cursor: pointer;
+}
+
+.fl2>:nth-child(2) {
+    cursor: pointer;
+    background-color: #b1fff5;
+    border-radius: 28px;
+    padding: 4px;
+    width: 31px;
+    height: 30px;
+}
+
+.fifthLayer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: normal;
+}
+
+.text1>p {
+    font-size: 2.25rem;
+    font-weight: 600;
+    color: #01cbb8;
+}
+
+.text2>span {
+    font-size: 18px;
+    color: #000000ab;
+}
+
+.text3 {
+    margin: 30px 0px;
+}
+
+.text3>input {
+    background-color: #a2fff575;
+    width: 27rem;
+    height: 3rem;
+    border-radius: 30px;
+    padding: 6px 22px;
+}
+
+.text3>button {
+    background-color: #2fc4b1;
+    color: white;
+    border: none;
+    margin-left: -71px;
+    border-radius: 37px;
+    margin-top: 8px;
+    height: 3rem;
+    width: 7rem;
+}
+
+/* TRANSCEDENTAL MEDITATION CSS */
+.TranscedentalMeditation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.TranscedentalMed {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.TranscedentalMed>p {
+    font-size: 2.25rem;
+    color: #008080;
+    font-weight: bold;
+}
+
+.blogImgPart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 15rem;
+    gap: 7rem;
+}
+
+.transLayer2 {
+    display: flex;
+    gap: 6rem;
+
+}
+
+.transLayer2>p {
+    width: 30rem;
+}
+
+.transLayer2>:nth-child(3) {
+    margin-left: -28rem;
+}
+
+.y {
+    margin-top: 50px;
+}
+
+@media (max-width: 600px) {
+
+    /* show element on medium-sized screens */
+    .MusicalTherapy {
+        width: auto;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .topLayer{
+        flex-direction: column;
+    }
+    .tl3{
+        width: auto;
+    }
+    .secondLayer{
+        margin: 0;
+    }
+    .thirdLayer{
+        flex-direction: column;
+        margin: 56px 35px;
+    }
+    .thl3{
+        width: auto;
+    }
+    .fl1{
+        width: auto;
+    }
+    .fl1>p{
+        padding: 2px 4px;
+    }
+    .b{
+        margin-left: 4px;
+    }
+    .text3>input{
+        width: auto;
+    }
+    .fifthLayer{
+        margin: 10px 16px;
+    }
+    .trans{
+        width: auto;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .transLayer2{
+        flex-direction: column-reverse;
+    }
+    .tr2{
+        flex-direction: column;
+    }
+    .blogImgPart{
+        margin: 5px 12px;
+        padding: 0;
+    }
+    .transLayer2>p{
+        width: auto;
+    }
+    .transLayer2>:nth-child(3){
+        margin-left: 0rem;
+        margin-bottom: -28rem;
+        height: 20rem;
+    }
+    .TranscedentalMed{
+        margin: 0px 10px;
+    }
+}
